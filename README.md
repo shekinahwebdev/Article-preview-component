@@ -17,7 +17,7 @@ I took a screen-shot of both the desktop and mobile screen.
 
 ### Links
 
-- Live Site URL:
+- Live Site URL:(https://shekinahwebdev.github.io/Article-preview-component/)
 
 ## My process
 
