@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="main-card">
+      <figure class="article-image">
+        <div>
+          <img
+            src="images/drawers.jpg"
+            alt="A stylish drawer"
+            class="article-thumbnail"
+          />
+        </div>
+      </figure>
+
+      <!-- Article Content -->
+      <section class="article-content">
+        <div class="article-content-1">
+          <h2 class="article-title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="article-description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <footer class="article-footer">
+          <div class="author-info">
+            <img
+              src="images/avatar-michelle.jpg"
+              lt="Michelle Appleton"
+              class="author-avatar"
+            />
+            <div class="author-details">
+              <p class="author-name">Michelle Appleton</p>
+              <p class="publish-date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button class="share-button showup-share-card-btn">
+            <img
+              class="button-icon"
+              src="images/icon-share.svg"
+              alt="Share icon"
+            />
+          </button>
+        </footer>
+      </section>
+      <section class="share-container share-container-hidden">
+        <div class="pop-up-card">
+          <p class="share-text">SHARE</p>
+          <div class="icon-section">
+            <img class="share-icon" src="images/icon-facebook.svg" alt="" />
+            <img class="share-icon" src="images/icon-twitter.svg" alt="" />
+            <img class="share-icon" src="images/icon-pinterest.svg" alt="" />
+          </div>
+        </div>
+        <div class="popup-button-container">
+          <button class="pop-up-card-btn">
+            <img
+              class="button-icon"
+              src="images/icon-share.svg"
+              alt="Share icon"
+            />
+          </button>
+        </div>
+        <div class="share-container-arrow"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
